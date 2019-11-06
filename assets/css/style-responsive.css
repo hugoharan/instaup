@@ -20,4 +20,12 @@
 	#hero h1{
 		font-size: 2em;
 	}
+
+	footer img.logo{
+		margin: 1em 0;
+	}
+
+	footer .margin-top-footer{
+		margin-top: 0em;
+	}
 }

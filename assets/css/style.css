@@ -333,8 +333,8 @@ color: #FFFFFF;
 	padding: 10px;
 	font-size: 20px;
 }
-#patrocinadores{
-	padding-top: 0;
+#patrocinadores, #faq{
+	padding-top: 0 !important;
 }
 
 #faq #accordion .item{
@@ -376,6 +376,10 @@ footer img.logo{
 	margin: 4em 0;
 }
 
+footer .margin-top-footer{
+	margin-top: 4em;
+}
+
 footer h3{
 	font-weight: bold;
 	color: #FFF;
@@ -394,21 +398,28 @@ footer ul >li, footer p{
 
 }
 
-footer ul.social{
-	text-align: center;
+footer .social{
+	display: inline-block;
+	margin-top: 1em;
 }
 
-footer ul.social > li{
+footer ul{
+	text-align: center;
+	margin: 0 auto;
+}
+
+footer ul > li{
 	float: left;
 	margin:10px;
+	display: inline-block;
 }
 
-footer ul.social > li >a> img{
+footer ul > li >a> img{
 	max-width: 30px;
 }
 
-footer .row{
+/*footer .row{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-}
+}*/
