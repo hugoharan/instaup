@@ -1,0 +1,23 @@
+@media only screen and (max-width: 450px)
+{
+	#hero h2{
+		font-size: 1.5em;
+	}
+}
+
+@media only screen and (max-width: 770px)
+{
+	#sobre h3, #sobre p{
+		font-size: 2em;
+	}
+	#sobre, #palestrantes, #programacao, #countdown, #cards, #contato, #vantagens, #ingressos, #faq, #patrocinadores{
+	padding: 2em 0;
+}
+}
+
+@media only screen and (max-width: 992px)
+{
+	#hero h1{
+		font-size: 2em;
+	}
+}
