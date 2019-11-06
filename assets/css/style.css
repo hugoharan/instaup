@@ -1,0 +1,314 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	background-color: #382D2C;
+}
+
+#hero{
+	background: url('../img/bg1.jpg');
+    text-align: center;
+    padding-top: 2em;
+}
+
+/*#hero:after{
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  width: 200%; 
+  height: 10px; 
+
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid black;
+
+}*/
+
+.separador{
+background-image: url(assets/img/separador.png);
+    height: 40px;
+    position: relative;
+    z-index: 99999;
+    bottom: 40px;
+}
+
+#hero .textos{
+	width: 80%;
+	display: block;
+	margin: 4% auto;
+	text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+}
+
+#hero img{
+	max-width: 100%;
+	margin: 3em;
+}
+
+#hero h1{
+	font-size: 35px;
+    line-height: 1.5;
+    font-weight: 600;color:#FFF;
+}
+
+#hero p{
+	font-family: Roboto;
+font-style: normal;
+font-weight: 400;
+font-size: 21px;
+line-height: 25px;
+text-align: center;
+color:#FFFFFF;
+padding:0 3em;
+}
+
+#hero h1{
+	font-family: Roboto;
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 59px;
+text-align: center;
+color: #FFFFFF;
+padding:0 3em;
+}
+
+#hero h2{
+	font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 33px;
+text-align: center;
+color: #FFFFFF;
+padding:0 3em;
+}
+
+.cta-a{
+	background: #FF922E;
+border-radius: 8px;
+padding:15px 40px;
+color: #FFFFFF;
+text-transform: uppercase;
+margin: 2em 0 5em;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 8px;
+border: none;
+font-weight: bold;
+}
+
+#sobre, #palestrantes, #programacao, #countdown, #cards, #contato, #vantagens, #ingressos, #faq, #patrocinadores{
+	padding: 5em 0;
+}
+#sobre img, #vantagens img{
+	max-width: 90%;
+}
+
+#sobre h3, #palestrantes h2, #programacao h2, #cards h2, #vantagens h2,  #ingressos h2,  #faq h2, #patrocinadores h2{
+	font-size: 35px;
+line-height: 45px;
+font-weight: 600;
+
+/* Verde Caribenho */
+
+color: #19F9C4;
+}
+
+#sobre p, #palestrantes p, #programacao p, #cards p, #vantagens p,  #ingressos p{
+	font-size: 27px;
+line-height: 1.5;
+
+color: #FFFFFF;
+}
+
+#palestrantes .box{
+	padding: 3%;
+}
+
+#palestrantes .box > .header-bod > img{
+	max-width: 100%;
+}
+
+#palestrantes h2, #palestrantes p{
+	text-align: center;
+	line-height: 1.5;
+	margin-bottom: 1em;
+}
+
+#palestrantes .box > .body-box{
+	background-color :#19F9C4;
+	padding: 5%;
+
+}
+
+#palestrantes .box > .body-box > h3{
+	font-size: 40px;
+line-height: 1.5;
+font-weight: bold;
+margin-top: 0px;
+/* Violeta Elétrico */
+
+color: #AA00FF;
+}
+#palestrantes .box > .body-box > h4{
+	font-size: 30px;
+    line-height: 1.5;
+    color: #443837;
+    font-weight: bold;
+    margin-top: 0px;
+
+/* Marsala */
+
+color: #443837;
+}
+
+#palestrantes .box > .body-box > a{
+	font-size: 20px;
+    line-height: 1.5;
+    color: #443837;
+}
+#palestrantes .box > .footer-box {
+	height: 20px;
+background: #AA00FF;
+}
+#programacao table > tbody > tr {
+	/*line-height: 5;*/
+}
+#programacao table > tbody > tr > td > span{
+	margin: 7px 10px;
+    padding: 10px 15px;
+    border: 2px solid #FFFFFF;
+}
+#programacao table > tbody > tr > td.hora > span{
+	 color: #19F9C4;
+	 font-weight: bold;
+}
+
+#programacao table > tbody > tr > td.desc > span{
+	 color: #FFF;
+	 font-weight: 400;
+	 display: block; 
+}
+
+#countdown .container{
+	background: url('../img/countdown.png') no-repeat;
+    text-align: center;
+    padding: 5em;
+    color: #FFF;
+}
+
+#countdown .container h2{
+	font-weight: bold;
+	padding: 0.8em 2em;
+	font-size: 40px;
+}
+
+#countdown .container p{
+	font-size: 60px;
+	font-weight: bold;
+}
+
+#countdown .container p  span{
+	font-size: 40px;
+	font-weight: bold;
+}
+
+#cards h2, #cards p,  #ingressos p,  #ingressos h2,  #faq h2, #patrocinadores h2{
+	text-align: center;
+}
+
+#faq h2, #patrocinadores h2{
+	color: #FFFFFF;
+}
+
+#cards .item{
+	background-color: #19F9C4;
+	border-radius: 8px;
+	color: #AA00FF;
+	padding: 2em 2em;
+	margin: 3em 0;
+}
+
+#cards .item:hover{
+	color: #FFFFFF;
+	border-radius: 8px;
+	background-color: #AA00FF;
+	text-align: left;
+}
+
+#cards .item:hover > img.icon{
+display: none;
+}
+
+#cards .item > h3{
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#cards .item > p{
+	text-align: left;
+	font-size: 16px;
+	color: #AA00FF;
+}
+
+#cards .item > .icon-bco, #cards .item:hover > .cta-bco{
+	display: none;
+}
+
+#cards .item:hover > .icon-bco, #cards .item:hover > .cta-bco{
+	display: block;
+}
+
+#cards .item:hover > p{
+	color: #FFFFFF;
+}
+
+#cards .list-cards{
+	display: flex;
+	align-items: stretch;
+	justify-content: space-between;
+}
+
+#cards .col-md-3 > .item{
+
+}
+
+.cta-bco{
+	background: none;
+    border-radius: 8px;
+    border: 3px solid #FFF;
+    padding: 7px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    border-radius: 8px;
+    font-weight: bold;
+    display: none;
+    margin-top: 2em;
+
+}
+
+.cta-bco:hover{
+	background-color: #FFFFFF;
+  color: #AA00FF;
+  
+
+}
+
+#contato {
+color: #FFFFFF;
+  background-color: #AA00FF;	
+}
+
+#contato .informacoes{
+	height: 450px;
+}
+
+#vantagens ul{
+	/*padding: 0;*/
+}
+
+#vantagens ul >li{
+	list-style-image: url('../img/check-icon.png');
+	color: #FFFFFF;
+	padding: 10px;
+	font-size: 20px;
+}
+
